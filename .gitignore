@@ -3,3 +3,80 @@ Data/*
 
 # But keep this file so the folder is tracked
 !Data/.gitkeep
+
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# virtual environment folders
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments
+.conda/
+conda-env/
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# Jupyter runtime files
+.jupyter/
+
+# -------------------------
+# TensorFlow / ML / Model Artifacts
+# -------------------------
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.tflite
+checkpoints/
+models/
+logs/
+*.pth
+*.pt
+
+
+# data formats
+*.csv
+*.tsv
+*.jsonl
+*.pickle
+*.pkl
+*.npz
+*.npy
+
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+
+build/
+dist/
+*.egg-info/
+
+*.log
+
+# testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
