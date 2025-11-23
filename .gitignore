@@ -80,3 +80,7 @@ dist/
 .coverage
 coverage.xml
 htmlcov/
+
+
+# GloVe embeddings (big files – don't commit)
+glove.6B.*
